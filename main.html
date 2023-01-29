@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- <link rel="text/javascript" href="functionality.js"> -->
+    <title>Ashish Vaidya</title>
+    <style>
+
+
+
+    </style>
+</head>
+
+<body>
+    <div class="w3-sidebar w3-animate-left w3-auto" style="display:none;" id="myMenu">
+        <div class="closeButton ">
+            <button onclick="closeMenu()">&times;</button>
+        </div>
+        <img class="Avatar" src="AshishAvatarcircle.jpg" alt="Avatar">
+        <h2 class="Name">Ashish Vaidya</h2>
+        <p class="Prof">Software Engineer</p>
+        <nav>
+
+            <div class="w3-sidebar w3-bar-block w3-panel">
+
+                <a class="tablink setColor w3-bar-item w3-hover-shadow" style="text-align: center;"
+                    onclick="openTab(event, 'Home')">Home</a>
+                <a class="tablink w3-bar-item w3-hover-shadow" style="text-align: center;"
+                    onclick="openTab(event, 'AboutMe');">AboutMe</a>
+                <a class="tablink w3-bar-item w3-hover-shadow" style="text-align: center;"
+                    onclick="openTab(event, 'Education')">Education</a>
+                <a class="tablink w3-bar-item w3-hover-shadow" style="text-align: center;"
+                    onclick="openTab(event,'Skills')">Skills</a>
+                <a class="tablink w3-bar-item w3-hover-shadow" style="text-align: center;"
+                    onclick="openTab(event, 'Projects')">Projects</a>
+                <a class="tablink w3-bar-item w3-hover-shadow" style="text-align: center;"
+                    onclick="openTab(event, 'Feedback')">Feedback</a>
+                <a class="tablink w3-bar-item w3-hover-shadow" style="text-align: center;"
+                    onclick="openTab(event, 'Credits')">Contacts</a>
+
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="w3-collapse w3-main w3-panel" id="myContent">
+        <div class="w3-container w3-white w3-card-4 ">
+
+            <!-- <div class=" w3-auto" id="navigationBar" style="width: 100%;"> -->
+            <!-- <div class="menubar"> -->
+            <!-- <ul style="list-style: none;"> -->
+            <button class="tablink menuButton" onclick="openMenu()"
+                style="background-color: #00a2ed;border: white; color: white; border-radius: 2px; font-size: 20px; position: fixed;">☰</button>
+            <!-- <li><button class="tablink setColor" onclick="openTab(event, 'Home')">Home</button></li>
+                        <li><button class="tablink" onclick="openTab(event, 'AboutMe');">AboutMe</button></li>
+                        <li><button class="tablink" onclick="openTab(event, 'Education')">Education</button></li>
+                        <li><button class="tablink" onclick="openTab(event,'Skills')">Skills</button></li>
+                        <li><button class="tablink" onclick="openTab(event, 'Projects')">Projects</button></li>
+                        <li><button class="tablink" onclick="openTab(event, 'Feedback')">Feedback</button></li>
+                        <li><button class="tablink" onclick="openTab(event, 'Credits')">Credits</button></li>
+                    </ul>
+                </div> -->
+
+
+            <div id="Home" class="Tabs homeinContent w3-panel">
+                <div>
+
+                    <p><span class="auto-type"></span></p>
+                </div>
+            </div>
+
+            <div id="AboutMe" class="Tabs abtmeinContent" style="display:none">
+                <div>
+                    <p><span class="auto-type2"></span></p>
+                </div>
+            </div>
+
+            <div id="Education" class=" Tabs educationinContent w3-panel" style="display:none;text-align: center;">
+
+                <div class="w3-panel">
+                    <p style="font-size: 35px; font-family: Georgia, 'Times New Roman', Times, serif;">Education Details
+                    </p>
+                </div>
+                <br>
+                <div class="w3-auto w3-card-4 w3-round w3-panel" style="padding-bottom:50px;">
+                    <p style="font-size: 25px; font-family: Georgia, 'Times New Roman', Times, serif;">Bachelor's
+                        Degree
+                        in Technical Engineering</p>
+
+                    <div class="cdesc w3-container">
+                        <div class="gallery">
+                            <a target="_blank" href="https://www.witsolapur.org/">
+                                <img src="WITimg.jpg" alt="WIT">
+                                <div class="desc">Walchand Institute of technology, Solapur</div>
+                            </a>
+                        </div>
+
+                        <p style="padding-top: 10px;">Status: In Progress</p>
+                        <p>Branch: Computer Science and Engineering</p>
+                        <p>First Year: CGPA - 9.32 Percentage - 89%</p>
+                        <!-- <p>Second Year: <span style="color: red;">Not declared</span></p>
+                            <p>Third Year: <span style="color: red;">Not declared</span></p>
+                            <p>Fourth Year: <span style="color: red;">Not declared</span></p> -->
+                    </div>
+                </div>
+
+
+                <div class=" w3-auto w3-card-4 w3-round w3-panel" style="padding-bottom:50px;">
+                    <p style="font-size: 25px; font-family: Georgia, 'Times New Roman', Times, serif;">Higher
+                        Secondary Board & Entrance Exam</p>
+
+
+                    <div class="gallery">
+                        <a target="_blank" href="https://www.sangameshwarcollege.ac.in/">
+                            <img src="sanagmeshwarimg.jpg" alt="Sanagmeshwar">
+                            <div class="desc">Sangameshwar College, Solapur</div>
+                        </a>
+                    </div>
+
+
+                    <div class="cdesc">
+                        <p style="padding-top: 40px;">Status: <span style="color:lawngreen;">Passed</span> </p>
+                        <p>Board Type: State Board </p>
+                        <p>Board Marks: Percentage - 91.83%</p>
+
+                        <p>MHTCET: Percentile - 85.10%ile</p>
+
+                    </div>
+                </div>
+
+                <div class=" w3-auto w3-card-4 w3-round w3-panel" style="padding-bottom:50px;">
+                    <p style="font-size: 25px; font-family: Georgia, 'Times New Roman', Times, serif;">Secondary
+                        Board</p>
+
+
+                    <div class="gallery">
+                        <a target="_blank" href="https://stjosephsolapur.in/">
+                            <img src="stjosephimg.jpg" alt="St. Joseph">
+                            <div class="desc">Saint Joseph High School</div>
+                        </a>
+                    </div>
+
+                    <div class="cdesc">
+                        <p style="padding-top: 60px;">Status: <span style="color:lawngreen;">Passed</span> </p>
+
+                        <p>Board Type: State Board </p>
+                        <p>Board Marks: Percentage - 85.40%</p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div id="Skills" class="Tabs skillsinContent w3-auto  w3-panel" style="display:none; font-size: 20px;">
+
+                <p style="font-size: 30px;">Programming Languages</p>
+
+                <div class="w3-container w3-card-4">
+                    <div class="w3-padding-top-24">C programming
+
+                        <div class="w3-card w3-black w3-auto" style="padding: 5px 5px 5px 5px; border-radius: 30px;">
+                            <div class="cbar" style="width: 90%;">
+                                <div style="color: white;font-size: 15px;">90%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-padding-top-24">
+                        C++ programming
+                        <div class="w3-card w3-black w3-auto" style="padding: 5px 0px 5px 5px; border-radius: 30px;">
+                            <div class="cbar" style="width: 80%;">
+                                <div style="color: white;font-size: 15px;">80%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-padding-top-24">
+                        Java programming
+                        <div class="w3-card w3-black w3-auto" style="padding: 5px 0px 5px 5px; border-radius: 30px;">
+                            <div class="cbar" style="width: 60%;">
+                                <div style="color: white;font-size: 15px;">60%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-padding-24">
+                        Web Development
+                        <div class="w3-card w3-black w3-auto" style="padding: 5px 0px 5px 5px; border-radius: 30px;">
+                            <div class="cbar" style="width: 85%;">
+                                <div style="color: white;font-size: 15px;">85%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="Projects" class="Tabs projectincontent" style="display:none">
+                <p>My Projects</p>
+                <div class="gallery">
+                    <a target="_blank" href="https://github.com/Ashish-Vaidya/BrickBreaker.git">
+                        <img src="BrickBreaker.png" alt="BrickBreaker">
+                        <p style="font-size: 20px;">Bricker Breaker</p>
+                    </a>
+                </div>
+
+                <a href=""></a>
+                <div class="gallery">
+                    <img src="Coming Soon.png" alt="Soon">
+                    <p style="font-size: 20px;">Coming Soon</p>
+                </div>
+                </a>
+
+                <a href=""></a>
+                <div class="gallery">
+                    <img src="Coming Soon.png" alt="Soon">
+                    <p style="font-size: 20px;">Coming Soon</p>
+                </div>
+                </a>
+
+                <a href=""></a>
+                <div class="gallery">
+                    <img src="Coming Soon.png" alt="Soon">
+                    <p style="font-size: 20px;">Coming Soon</p>
+                </div>
+                </a>
+
+                <a href=""></a>
+                <div class="gallery">
+                    <img src="Coming Soon.png" alt="Soon">
+                    <p style="font-size: 20px;">Coming Soon</p>
+                </div>
+                </a>
+
+                <a href=""></a>
+                <div class="gallery">
+                    <img src="Coming Soon.png" alt="Soon">
+                    <p style="font-size: 20px;">Coming Soon</p>
+                </div>
+                </a>
+            </div>
+            <div id="Feedback" class=" Tabs feedbackincontent" style="display:none">
+                <p style="font-size: 30px;">Your Feedback</p>
+                <p style="padding-bottom: 50px;">I would love to hear your thoughts and suggestions about this website
+                    so I can improve it!</p>
+
+                <form action="UserFeedback.php" id="FeedBack">
+                    <p><textarea name="userName" id="FeedBack" cols="40" rows="10"
+                            placeholder="Please enter your Feedback here"></textarea></p>
+                    <label for="userRating">Rating:
+                        <input type="radio" name="userRating" value="poor">Poor
+                        <input type="radio" name="userRating" value="Okayish">Okayish
+                        <input type="radio" name="userRating" value="Good">Good
+                        <input type="radio" name="userRating" value="Great">Great
+                        <input type="radio" name="userRating" value="Excellent">Excellent
+                        <p><input type="submit" name="save" value="Submit" onclick=message()>
+                    </label></p>
+                </form>
+            </div>
+
+            <div id="Credits" class="Tabs contactsincontent" style="display:none;">
+                <p style="font-size: 30px;">Find Me on Social Media</p>
+                
+                    <div class="w3-panel w3-bar">
+                        <a class="w3-bar-item w3-hover-shadow" href="https://github.com/Ashish-Vaidya"> <i
+                                class="bi bi-github"></i> Github</a>
+                        <a class="w3-bar-item w3-hover-shadow" href="#Instagram"> <i
+                                class="bi bi-instagram"></i> Instagram</a>
+                        <a class="w3-bar-item w3-hover-shadow" href="#Twitter"> <i
+                                class="bi bi-twitter"></i> Twitter</a>
+                        <a class="w3-bar-item w3-hover-shadow" href="#Reddit">
+                                <i class="bi bi-reddit"></i> Reddit</a>
+            
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+
+
+        function message() {
+            alert("Your Feedback was submitted succesfully, ThankYou!!");
+        }
+        var typed = new Typed(".auto-type", {
+            strings: ["Hi, I am Ashish Vaidya", "A Software Engineer", "A Front End Developer", "A App Developer"],
+            typeSpeed: 25,
+            backSpeed: 25,
+            loop: true,
+        })
+
+        var typed = new Typed(".auto-type2", {
+            strings: ["I am Ashish Sunil Vaidya. <br> I am 20 years old.<br>My goal is to be a skilled Software Engineer.<br>I live in India,<br>Maharashtra,Solapur city."],
+            typeSpeed: 25,
+            backSpeed: 25,
+            startDelay: 1000,
+            loop: true,
+        })
+
+
+        function openMenu() {
+            document.getElementById("myMenu").style.display = "block";
+            document.getElementById("myContent").style.marginLeft = "200px";
+            document.getElementById("navigationBar").style.width = "95%";
+        }
+
+        function closeMenu() {
+            document.getElementById("myMenu").style.display = "none";
+            document.getElementById("myContent").style.marginLeft = "0";
+            document.getElementById("navigationBar").style.width = "95%";
+
+        }
+
+
+        function openTab(evt, tabName) {
+            var i, x, tablinks;
+            x = document.getElementsByClassName("Tabs");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i <= x.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace("setColor", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " setColor";
+        }
+
+    </script>
+</body>
+
+</html>

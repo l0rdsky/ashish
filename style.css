@@ -1,0 +1,257 @@
+body {
+    background-image: url("19007.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.Avatar {
+    width: 50%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    margin-left: 25%;
+    position: relative;
+    top: 30px;
+}
+
+.Name {
+    color: #00a2ed;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    display: block;
+
+}
+
+.Prof {
+    text-align: center;
+    color: #00a2ed;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bi {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #00a2ed;
+}
+
+.Avatar.img {
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+.close_open :hover {
+    background-color: #00a2ed;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    transition: 0.5s;
+
+}
+
+.closeButton :hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    color: #00a2ed;
+    border: none;
+
+}
+
+.closeButton button {
+    border: none;
+    color: #00a2ed;
+    position: absolute;
+    left: 170px;
+}
+
+.setColor {
+    background-color: #00a2ed;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(1, 253, 249, 0.35), 0 6px 20px 0 rgba(1, 253, 249, 0.35);
+    border-radius: 5px;
+}
+
+/* .menubar li button {
+    padding: 10px;
+    border: white;
+    background-color:#00a2ed;
+    text-align: center;
+    border-radius: 5px;
+} */
+
+/* .menubar {
+    list-style: none;
+
+    text-align: center;
+    padding-left: 0px;
+}
+
+.menubar li {
+    width: 110px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.menuButton:hover
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.Tabs {
+    text-align: center;
+    margin: auto;
+}
+
+.menubar li button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+} */
+
+.homeinContent {
+    color: #00a2ed;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-top: 10%;
+    font-size: 50px;
+    height: 95vh;
+}
+
+.abtmeinContent {
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20%;
+    color: #00a2ed;
+    font-size: 30px;
+}
+
+.educationinContent {
+
+    color: #00a2ed;
+
+}
+
+div.gallery {
+    margin: 5px;
+
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    box-shadow: 0 4px 8px 0 rgba(158, 127, 244, 0.35), 0 6px 20px 0 rgba(158, 127, 244, 0.35);
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.skillsinContent
+{
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    color: #00a2ed;
+    font-size: 30px;
+}
+
+
+.projectincontent
+{
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    color: #00a2ed;
+    font-size: 30px;
+}
+
+.feedbackincontent
+{
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    color: #00a2ed;
+}
+
+.contactsincontent
+{
+    color: #00a2ed;
+    text-align: center;
+}
+
+.progressContainer
+{
+    width:50%;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+
+
+.cbar{
+
+   
+    
+    height: 19px;
+    background-color: green;
+    border-radius: 30px;
+    animation-name: cprog;
+    animation: cprog 3s ease-in 1;
+}
+
+@keyframes cprog {
+    from
+    {
+        width: 0;
+    }
+
+
+}
+
+.c2pprogbar
+{
+    width: 430px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top:100px;
+    left: 100px;
+    border-radius: 30px;
+}
+
+.c2pbar{
+
+   
+    width: 350px;
+    height: 19px;
+    background-color: green;
+    border-radius: 30px;
+    animation-name: c2prog;
+    animation: c2prog 3s ease-in 1;
+}
+
+@keyframes c2prog {
+    from
+    {
+        width: 0;
+    }
+
+
+}
